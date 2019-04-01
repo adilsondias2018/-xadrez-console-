@@ -16,6 +16,10 @@ namespace xadrez_console
             Console.ReadLine();
 
 
+            Tabuleiro tab = new Tabuleiro(8, 8);
+
+
+
         }
     }
 }
