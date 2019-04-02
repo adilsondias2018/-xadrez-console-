@@ -37,7 +37,17 @@ namespace xadrez_console
 
         }
 
-        // fim do metodo 
+        // fim Metodo lerPosicaoXadrez
+
+            public static PosicaoXadrez lerPosicaoXadrez()
+        {
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1] + "");
+            return new PosicaoXadrez(coluna, linha);
+        }
+
+        // inico do metodo ImprimirPeca()
 
         public static void imprimirPeca(Peca peca)
         {
