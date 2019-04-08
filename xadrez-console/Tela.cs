@@ -22,7 +22,6 @@ namespace xadrez_console
                     imprimirPeca(tab.peca(i, j));                
                                        
                 }
-
                 Console.WriteLine();
             }
             Console.WriteLine("  a b c d e f g h");
